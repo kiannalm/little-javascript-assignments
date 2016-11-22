@@ -4,13 +4,14 @@ var sum = 0;
 
 var i = 0
 i++;
+//loop goes here
 
 for  {
 
   varResults = nums[i];
 }
 
-//loop goes here
+
 
 console.log(sum);
 
