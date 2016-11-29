@@ -1,11 +1,9 @@
 var nums = [1, 6, 42, 3, 9];
 var sum = 0;
 
-for(var nums i = 0; i < nums.lenghth; i++) {
-  sum += nums [i] + ', ';
-  sum += '.'
+for (var i = 0; i < nums.length; i++) {
+  sum = nums[i] + sum;
 
-  para.textContent = sum;
 }
 
 //loop goes here
