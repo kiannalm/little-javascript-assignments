@@ -1,17 +1,15 @@
-
 var nums = [1, 6, 42, 3, 9];
 var sum = 0;
+var i = sum;
 
-var i = 0
-i++;
 //loop goes here
 
-for  {
+while(i < nums.length){
+  var value = nums[i];
+  sum = sum + value;
 
-  varResults = nums[i];
+  i++;
 }
-
-
 
 console.log(sum);
 
